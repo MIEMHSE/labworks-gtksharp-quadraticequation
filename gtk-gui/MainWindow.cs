@@ -35,7 +35,7 @@ public partial class MainWindow
 		global::Stetic.Gui.Initialize (this);
 		// Widget MainWindow
 		this.Name = "MainWindow";
-		this.Title = global::Mono.Unix.Catalog.GetString ("Корни квадратного уравнения");
+		this.Title = global::Mono.Unix.Catalog.GetString ("Quadratic equation roots");
 		this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 		// Container child MainWindow.Gtk.Container+ContainerChild
 		this.vbox1 = new global::Gtk.VBox ();
@@ -50,7 +50,7 @@ public partial class MainWindow
 		// Container child hbox1.Gtk.Box+BoxChild
 		this.label5 = new global::Gtk.Label ();
 		this.label5.Name = "label5";
-		this.label5.LabelProp = global::Mono.Unix.Catalog.GetString ("Коэффициенты уравнения");
+		this.label5.LabelProp = global::Mono.Unix.Catalog.GetString ("Equation coefficients");
 		this.hbox1.Add (this.label5);
 		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.label5]));
 		w1.Position = 0;
@@ -59,7 +59,7 @@ public partial class MainWindow
 		// Container child hbox1.Gtk.Box+BoxChild
 		this.label6 = new global::Gtk.Label ();
 		this.label6.Name = "label6";
-		this.label6.LabelProp = global::Mono.Unix.Catalog.GetString ("Корни уравнения");
+		this.label6.LabelProp = global::Mono.Unix.Catalog.GetString ("Equation roots");
 		this.hbox1.Add (this.label6);
 		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.label6]));
 		w2.Position = 1;
@@ -86,7 +86,7 @@ public partial class MainWindow
 		// Container child hbox3.Gtk.Box+BoxChild
 		this.label7 = new global::Gtk.Label ();
 		this.label7.Name = "label7";
-		this.label7.LabelProp = global::Mono.Unix.Catalog.GetString ("a =");
+		this.label7.LabelProp = "a =";
 		this.hbox3.Add (this.label7);
 		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.hbox3 [this.label7]));
 		w4.Position = 0;
@@ -114,7 +114,7 @@ public partial class MainWindow
 		// Container child hbox4.Gtk.Box+BoxChild
 		this.label8 = new global::Gtk.Label ();
 		this.label8.Name = "label8";
-		this.label8.LabelProp = global::Mono.Unix.Catalog.GetString ("b =");
+		this.label8.LabelProp = "b =";
 		this.hbox4.Add (this.label8);
 		global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(this.hbox4 [this.label8]));
 		w7.Position = 0;
@@ -142,7 +142,7 @@ public partial class MainWindow
 		// Container child hbox5.Gtk.Box+BoxChild
 		this.label9 = new global::Gtk.Label ();
 		this.label9.Name = "label9";
-		this.label9.LabelProp = global::Mono.Unix.Catalog.GetString ("c =");
+		this.label9.LabelProp = "c =";
 		this.hbox5.Add (this.label9);
 		global::Gtk.Box.BoxChild w10 = ((global::Gtk.Box.BoxChild)(this.hbox5 [this.label9]));
 		w10.Position = 0;
@@ -179,7 +179,7 @@ public partial class MainWindow
 		// Container child hbox6.Gtk.Box+BoxChild
 		this.label11 = new global::Gtk.Label ();
 		this.label11.Name = "label11";
-		this.label11.LabelProp = global::Mono.Unix.Catalog.GetString ("x1 =");
+		this.label11.LabelProp = "x1 =";
 		this.hbox6.Add (this.label11);
 		global::Gtk.Box.BoxChild w14 = ((global::Gtk.Box.BoxChild)(this.hbox6 [this.label11]));
 		w14.Position = 0;
@@ -198,7 +198,7 @@ public partial class MainWindow
 		// Container child hbox6.Gtk.Box+BoxChild
 		this.label12 = new global::Gtk.Label ();
 		this.label12.Name = "label12";
-		this.label12.LabelProp = global::Mono.Unix.Catalog.GetString ("x2 =");
+		this.label12.LabelProp = "x2 =";
 		this.hbox6.Add (this.label12);
 		global::Gtk.Box.BoxChild w16 = ((global::Gtk.Box.BoxChild)(this.hbox6 [this.label12]));
 		w16.Position = 2;
@@ -223,7 +223,7 @@ public partial class MainWindow
 		// Container child vbox3.Gtk.Box+BoxChild
 		this.labelOut = new global::Gtk.Label ();
 		this.labelOut.Name = "labelOut";
-		this.labelOut.LabelProp = global::Mono.Unix.Catalog.GetString ("Введите A, B, C в формате чисел с плавающей запятой.");
+		this.labelOut.LabelProp = global::Mono.Unix.Catalog.GetString ("Type A, B, C in floating-point format.");
 		this.vbox3.Add (this.labelOut);
 		global::Gtk.Box.BoxChild w19 = ((global::Gtk.Box.BoxChild)(this.vbox3 [this.labelOut]));
 		w19.Position = 1;
@@ -250,7 +250,7 @@ public partial class MainWindow
 		this.buttonRst.CanFocus = true;
 		this.buttonRst.Name = "buttonRst";
 		this.buttonRst.UseUnderline = true;
-		this.buttonRst.Label = global::Mono.Unix.Catalog.GetString ("Сброс");
+		this.buttonRst.Label = global::Mono.Unix.Catalog.GetString ("Reset");
 		this.hbox7.Add (this.buttonRst);
 		global::Gtk.Box.BoxChild w22 = ((global::Gtk.Box.BoxChild)(this.hbox7 [this.buttonRst]));
 		w22.Position = 0;
@@ -262,7 +262,7 @@ public partial class MainWindow
 		this.buttonSolve.CanFocus = true;
 		this.buttonSolve.Name = "buttonSolve";
 		this.buttonSolve.UseUnderline = true;
-		this.buttonSolve.Label = global::Mono.Unix.Catalog.GetString ("Решить");
+		this.buttonSolve.Label = global::Mono.Unix.Catalog.GetString ("Solve");
 		this.hbox7.Add (this.buttonSolve);
 		global::Gtk.Box.BoxChild w23 = ((global::Gtk.Box.BoxChild)(this.hbox7 [this.buttonSolve]));
 		w23.Position = 1;
@@ -273,7 +273,7 @@ public partial class MainWindow
 		this.buttonQuit.CanFocus = true;
 		this.buttonQuit.Name = "buttonQuit";
 		this.buttonQuit.UseUnderline = true;
-		this.buttonQuit.Label = global::Mono.Unix.Catalog.GetString ("Закрыть");
+		this.buttonQuit.Label = global::Mono.Unix.Catalog.GetString ("Close");
 		this.hbox7.Add (this.buttonQuit);
 		global::Gtk.Box.BoxChild w24 = ((global::Gtk.Box.BoxChild)(this.hbox7 [this.buttonQuit]));
 		w24.Position = 2;

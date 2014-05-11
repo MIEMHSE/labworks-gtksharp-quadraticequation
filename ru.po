@@ -1,0 +1,210 @@
+# Russian translation of gtksharp-labworks-quadraticequation
+# Copyright (C) 2014 Sergey Sobko <S.Sobko@profitware.ru>
+# This file is distributed under the same license as the gtksharp-labworks-quadraticequation package.
+# Sergey Sobko <S.Sobko@profitware.ru>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-10 23:25+0400\n"
+"PO-Revision-Date: 2014-05-10 23:32+0400\n"
+"Last-Translator: Sergey Sobko <S.Sobko@profitware.ru>\n"
+"Language-Team: Russian <translate@profitware.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: MainWindow.cs:22
+msgid "Type A, B and C. Values are to be in floating-point format."
+msgstr "Введите значения A, B и C. Значения должны быть числами с плавающей запятой."
+
+#: MainWindow.cs:30
+msgid "A, B or C are typed incorrectly. They are to be floating-point numbers."
+msgstr "Неправильно введены A, B или C. Значения должны быть числами с плавающей запятой."
+
+#: MainWindow.cs:36
+msgid "Correct equality."
+msgstr "Верное равенство."
+
+#: MainWindow.cs:41
+msgid "Incorrect equality."
+msgstr "Неверное равенство."
+
+#: MainWindow.cs:46
+msgid "Linear equation. Only one root."
+msgstr "Линейное уравнение. Корень один."
+
+#: MainWindow.cs:53
+msgid "Discriminant < 0. Equation has no real roots."
+msgstr "Дискриминант < 0. Уравнение не имеет действительных корней."
+
+#: MainWindow.cs:58
+msgid "Discriminant > 0. Equation has two roots."
+msgstr "Дискриминант > 0. Уравнение имеет два корня."
+
+#: MainWindow.cs:60
+msgid "Discriminant = 0. Equation has two equal roots."
+msgstr "Дискриминант = 0. Уравнение имеет два одинаковых корня."
+
+#: MainWindow.cs:79 gtk-gui/MainWindow.cs:226
+msgid "Type A, B, C in floating-point format."
+msgstr "Введите A, B, C в формате чисел с плавающей запятой."
+
+#: gtk-gui/MainWindow.cs:37
+msgid "MainWindow"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:38
+msgid "Quadratic equation roots"
+msgstr "Корни квадратного уравнения"
+
+#: gtk-gui/MainWindow.cs:42
+msgid "vbox1"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:47
+msgid "hbox1"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:52
+msgid "label5"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:53
+msgid "Equation coefficients"
+msgstr "Коэффициенты уравнения"
+
+#: gtk-gui/MainWindow.cs:61
+msgid "label6"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:62
+msgid "Equation roots"
+msgstr "Корни уравнения"
+
+#: gtk-gui/MainWindow.cs:75
+msgid "hbox2"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:79
+msgid "vbox2"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:84
+msgid "hbox3"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:88
+msgid "label7"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:89
+msgid "a ="
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:98
+msgid "entryA"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:112
+msgid "hbox4"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:116
+msgid "label8"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:117
+msgid "b ="
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:126
+msgid "entryB"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:140
+msgid "hbox5"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:144
+msgid "label9"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:145
+msgid "c ="
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:154
+msgid "entryC"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:172
+msgid "vbox3"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:177
+msgid "hbox6"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:181
+msgid "label11"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:182
+msgid "x1 ="
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:191
+msgid "entryX1"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:200
+msgid "label12"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:201
+msgid "x2 ="
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:210
+msgid "entryX2"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:225
+msgid "labelOut"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:245
+msgid "hbox7"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:251
+msgid "buttonRst"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:253
+msgid "Reset"
+msgstr "Сбросить"
+
+#: gtk-gui/MainWindow.cs:263
+msgid "buttonSolve"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:265
+msgid "Solve"
+msgstr "Решить"
+
+#: gtk-gui/MainWindow.cs:274
+msgid "buttonQuit"
+msgstr ""
+
+#: gtk-gui/MainWindow.cs:276
+msgid "Close"
+msgstr "Закрыть"
